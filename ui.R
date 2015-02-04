@@ -4,7 +4,7 @@ shinyUI(pageWithSidebar(
   # Application title
   headerPanel("Encrypting/Decrypting tool"),
   sidebarPanel(
-    textInput("text", "Imput text"),
+    textInput("text", "Input text"),
     radioButtons("radio", label=h3("Action"),
       choices=list("Encrypt" ="Encrypt",
       "Decrypt" ="Decrypt")),
